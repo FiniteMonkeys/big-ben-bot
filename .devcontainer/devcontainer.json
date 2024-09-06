@@ -1,0 +1,23 @@
+{
+  "name": "big-ben-bot",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "editorconfig.editorconfig",
+        "github.vscode-pull-request-github",
+        "jakebecker.elixir-ls",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "appPort": [],
+  "postCreateCommand": "",
+  "remoteUser": "vscode"
+}
