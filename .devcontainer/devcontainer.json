@@ -1,0 +1,36 @@
+{
+  "name": "big-ben-bot",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "bierner.github-markdown-preview",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-emoji",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-mermaid",
+        "bierner.markdown-preview-github-styles",
+        "bierner.markdown-yaml-preamble",
+        "chrislajoie.vscode-modelines",
+        "DavidAnson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "florinpatrascu.vscode-elixir-snippets",
+        "github.vscode-pull-request-github",
+        "jakebecker.elixir-ls",
+        "redhat.vscode-yaml",
+        "samuel-pordeus.elixir-jump-to-test",
+        "Tyriar.sort-lines",
+        "vs-publisher-1448185.keyoti-changeallendoflinesequence"
+      ]
+    }
+  },
+  "appPort": [],
+  "postCreateCommand": "",
+  "remoteUser": "vscode"
+}
